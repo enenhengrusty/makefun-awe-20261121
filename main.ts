@@ -2,16 +2,15 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const TEXT = [
-  "You lie under a heavy quilt,",
-  "listening to rain on the tin roof.",
-  "A slow hush. A drop. Another.",
+  "You sleep against your mother's shoulder.",
+  "The rails keep a slow, even count.",
+  "A crossing bell fades behind you.",
   "",
-  "This same water has been rising and falling",
-  "since before there were roofs,",
-  "four billion years of ocean and cloud,",
-  "still unhurried,",
-  "drumming softly above you",
-  "while you sleep.",
+  "Outside, the dark was a sea once,",
+  "and the stars above it set out",
+  "before there were rails or towns.",
+  "The earth turns gently under the wheels,",
+  "carrying you both home.",
 ].join("\n");
 
 const codePoints = [...TEXT].length;
