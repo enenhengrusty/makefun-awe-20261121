@@ -2,16 +2,15 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const TEXT = [
-  "Sun lies warm across your blanket.",
-  "Dust turns, slow, and settles.",
-  "Down the hall, a kettle cools.",
+  "You doze in the window seat.",
+  "The cat breathes against your knee. In. Out.",
+  "Sun lies on you both, warm as a hand.",
   "",
-  "That patch of warmth spent",
-  "a hundred thousand years",
-  "finding its way out of the sun,",
-  "eight quiet minutes crossing the dark,",
-  "to lie here on your sleeve,",
-  "with nowhere left to go.",
+  "That warmth left the heart of the sun",
+  "before there were cats, or windows, or you,",
+  "and wandered a hundred thousand years",
+  "to rest here.",
+  "More is already on the way.",
 ].join("\n");
 
 const codePoints = [...TEXT].length;
